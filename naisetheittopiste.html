@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, intial-scale-1.0">
+        <title>Naiset Heittopisteet</title>
+        <link href="naisetheittopiste.css" rel="stylesheet">
+        <script type="text/javascript" src ="naisetheittopiste.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>HEITTOVIISIOTTELU NAISTEN PISTELASKURI</h1>
+            <a href="heittopiste.html">Home</a>
+          </header>
+    <section>
+        <p>
+            <label>Heittäjän ikä:---------</label>
+            <input type="text" id="ika" value="0" />
+        </p>
+        <p>
+            <label>Moukari tulos (m):--</label>
+            <input type="text" id="moukaritulos" value="0" />
+            <span id="moukaritulostus"></span>
+            <span id="moukaripaino"></span>
+        </p>
+        <p>
+            <label>Kuula tulos (m):-----</label>
+            <input type="text" id="kuulatulos" value="0" />
+            <span id="kuulatulostus"></span>
+            <span id="kuulapaino"></span>
+        </p>
+        <p>
+            <label>Kiekko tulos (m):----</label>
+            <input type="text" id="kiekkotulos" value="0" />
+            <span id="kiekkotulostus"></span>
+            <span id="kiekkopaino"></span>
+        </p>
+        <p>
+            <label>Keihäs tulos (m):----</label>
+            <input type="text" id="keihastulos" value="0" />
+            <span id="keihastulostus"></span>
+            <span id="keihaspaino"></span>
+        </p>
+        <p>
+            <label>Paino tulos (m):-----</label>
+            <input type="text" id="painotulos" value="0" />
+            <span id="painotulostus"></span>
+            <span id="painopaino"></span>
+        </p>
+        <p>
+            <label>Päivitä pisteet-------</label>
+            <input type="button" value="              PÄIVITÄ              " onclick="laskepisteet()" />
+            <label>-- Yhteispisteet </label>
+            <span id="yhteispisteet"></span>
+        </p>
+    </section>
+    <footer>
+        <p>
+            <a href="https://www.saul.fi/">Suomen aikuisurheiluliitto ry</a>
+        </p>
+    </footer>  
+
+</body>
+</html>

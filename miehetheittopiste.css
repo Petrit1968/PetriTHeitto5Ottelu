@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #CEE3F6;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  width: auto;
+  text-align: center;
+  font-size: 20px;
+  color: #aaa;
+}
+
+footer {
+  background-color: #777;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
